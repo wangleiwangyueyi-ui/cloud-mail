@@ -6,14 +6,14 @@ keep_vars = true
 [observability]
 enabled = true
 
-#[[d1_databases]]
-#binding = "db"			#d1数据库绑定名默认不可修改
-#database_name = "nibmi-mail-db"		#d1数据库名字
-#database_id = "e77e46ef-88d0-4e8b-8683-8ae4537b3527"		#d1数据库id
+[[d1_databases]]
+binding = "db"			#d1数据库绑定名默认不可修改
+database_name = "nibmi-mail-db"		#d1数据库名字
+database_id = "e77e46ef-88d0-4e8b-8683-8ae4537b3527"		#d1数据库id
 
-#[[kv_namespaces]]
-#binding = "kv"			#kv绑定名默认不可修改
-#id = "3c9d75364b3446cb8f6634992306cfc5"					#kv数据库id
+[[kv_namespaces]]
+binding = "kv"			#kv绑定名默认不可修改
+id = "3c9d75364b3446cb8f6634992306cfc5"					#kv数据库id
 
 #[[r2_buckets]]
 #binding = "r2"			#r2对象存储绑定名默认不可修改
